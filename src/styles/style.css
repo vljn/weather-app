@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('../fonts/coolvetica\ rg.otf');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  /*background-image: url('../images/cloudy.jpg')*/
+  background-color: theme('colors.slate.700');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
